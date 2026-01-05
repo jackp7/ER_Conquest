@@ -1,0 +1,88 @@
+/* App.css */
+
+.appBackground {
+  background-color: #e4ebf7;
+  height: 100%;
+  color: black;
+}
+.centerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  max-width: 60%;
+  margin: auto;
+  border-radius: 80px;
+}
+.fullSizeImage {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.titleBox {
+  background-color: #76a6fa;
+  white-space: nowrap;
+  padding: 1em;
+  max-width: "75%";
+  margin-bottom: 2em;
+  font-family: "Sora";
+}
+
+.eventDetailsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  padding: 20px;
+  font-family: "Sora";
+}
+
+.eventDetailsBox ul {
+  color: black;
+}
+
+.countdownText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  font-family: "Sora", sans-serif;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.countdownBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #76a6fa;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  max-width: 20%;
+  margin: 0 auto;
+  border-radius: 80px;
+  color: White;
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+}
+
+.countdownBoxInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+  font-size: calc(10px + .5vw);
+}
+
+.playersBox {
+  padding: 2em;
+}
+
+.casualLeague {
+  margin-right: 14%;
+}
